@@ -1,0 +1,62 @@
+===============================================================================
+Benchmark Results
+===============================================================================
+Test Case  |  Search Function       |  Execution Time (ns)  |  Avg Iterations
+===============================================================================
+10 elements |  Binary Search  |  740 ns  |  2.9
+10 elements |  Exponential Search  |  170 ns  |  4.3
+10 elements |  Fibonacci Search  |  120 ns  |  7.9
+10 elements |  Interpolation Search  |  360 ns  |  1
+10 elements |  Jump Search  |  120 ns  |  3.1
+10 elements |  Linear Search  |  100 ns  |  5.5
+10 elements |  Ternary Search  |  130 ns  |  2
+10 elements |  Two Pointer Search  |  110 ns  |  3
+10 elements |  AVL Tree Search  |  50 ns  |  2.9
+10 elements |  B Tree Search  |  50 ns  |  2.6
+10 elements |  Cuckoo Hashing Search  |  20 ns  |  1
+10 elements |  Hopscotch Hashing Search  |  60 ns  |  32
+10 elements |  Trie Search  |  390 ns  |  32
+---------------------------------------------------------------
+100 elements |  Binary Search  |  108 ns  |  5.8
+100 elements |  Exponential Search  |  97 ns  |  9.84
+100 elements |  Fibonacci Search  |  86 ns  |  16.13
+100 elements |  Interpolation Search  |  47 ns  |  1
+100 elements |  Jump Search  |  127 ns  |  10
+100 elements |  Linear Search  |  73 ns  |  50.5
+100 elements |  Ternary Search  |  76 ns  |  3.84
+100 elements |  Two Pointer Search  |  64 ns  |  25.5
+100 elements |  AVL Tree Search  |  57 ns  |  5.8
+100 elements |  B Tree Search  |  43 ns  |  6.92
+100 elements |  Cuckoo Hashing Search  |  37 ns  |  1
+100 elements |  Hopscotch Hashing Search  |  48 ns  |  32
+100 elements |  Trie Search  |  349 ns  |  32
+---------------------------------------------------------------
+1000 elements |  Binary Search  |  161.5 ns  |  8.987
+1000 elements |  Exponential Search  |  139.5 ns  |  16.03
+1000 elements |  Fibonacci Search  |  94.6 ns  |  24.73
+1000 elements |  Interpolation Search  |  55.6 ns  |  1
+1000 elements |  Jump Search  |  133.2 ns  |  31.54
+1000 elements |  Linear Search  |  173.7 ns  |  500.5
+1000 elements |  Ternary Search  |  95.4 ns  |  5.914
+1000 elements |  Two Pointer Search  |  149.3 ns  |  250.5
+1000 elements |  AVL Tree Search  |  74.6 ns  |  8.987
+1000 elements |  B Tree Search  |  43.3 ns  |  9.974
+1000 elements |  Cuckoo Hashing Search  |  37.1 ns  |  1
+1000 elements |  Hopscotch Hashing Search  |  60.6 ns  |  32
+1000 elements |  Trie Search  |  347.3 ns  |  32
+---------------------------------------------------------------
+10000 elements |  Binary Search  |  801.64 ns  |  12.3631
+10000 elements |  Exponential Search  |  585.01 ns  |  23.0956
+10000 elements |  Fibonacci Search  |  356.1 ns  |  31.8405
+10000 elements |  Interpolation Search  |  323.9 ns  |  1
+10000 elements |  Jump Search  |  595.28 ns  |  100
+10000 elements |  Linear Search  |  2783.34 ns  |  5000.5
+10000 elements |  Ternary Search  |  271.58 ns  |  8.0168
+10000 elements |  Two Pointer Search  |  2069.73 ns  |  2500.5
+10000 elements |  AVL Tree Search  |  409.36 ns  |  12.3631
+10000 elements |  B Tree Search  |  235.27 ns  |  12.9962
+10000 elements |  Cuckoo Hashing Search  |  90.91 ns  |  1
+10000 elements |  Hopscotch Hashing Search  |  118.93 ns  |  32
+10000 elements |  Trie Search  |  850.74 ns  |  32
+---------------------------------------------------------------
+
