@@ -23,7 +23,6 @@
 #include "cuckoo_hash.h"
 #include "avl_tree.h"
 #include "b_tree.h"
-#include "trie.h"
 using namespace std;
 
 
@@ -43,7 +42,6 @@ void speedTest(string input, string output, vector<int> sizes) {
     functions2["Cuckoo Hashing Search"] = CuckooSearch;
     functions2["AVL Tree Search"] = AVLTreeSearch;
     functions2["B Tree Search"] = BTreeSearch;
-    functions2["Trie Search"] = BinaryPrefixTreeSearch;
 
     std::ifstream fin(input);
     std::ofstream fout(output, std::ios::app);

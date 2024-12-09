@@ -42,3 +42,17 @@ Test Case  |  Search Function       |  Execution Time (ns)  |  Avg Iterations
 1000 elements |  Hopscotch Hashing Search  |  71.2 ns  |  32
 1000 elements |  Trie Search  |  331 ns  |  32
 ---------------------------------------------------------------
+10000 elements |  Binary Search  |  637.02 ns  |  13.092
+10000 elements |  Exponential Search  |  314.1 ns  |  5.7111
+10000 elements |  Fibonacci Search  |  411.48 ns  |  33.1743
+10000 elements |  Jump Search  |  427.09 ns  |  104.361
+10000 elements |  Linear Search  |  2449.06 ns  |  5000.5
+10000 elements |  Ternary Search  |  275.31 ns  |  8.4806
+10000 elements |  Two Pointer Search  |  1789.99 ns  |  2500.5
+10000 elements |  AVL Tree Search  |  196.63 ns  |  12.558
+10000 elements |  B Tree Search  |  150.25 ns  |  12.9901
+10000 elements |  Cuckoo Hashing Search  |  98.63 ns  |  1
+10000 elements |  Hopscotch Hashing Search  |  151.43 ns  |  32
+10000 elements |  Trie Search  |  528.8 ns  |  32
+---------------------------------------------------------------
+
