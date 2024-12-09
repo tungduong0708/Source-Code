@@ -49,7 +49,7 @@ void speedTest(string input, string output, vector<int> sizes) {
     std::ofstream fout(output, std::ios::app);
 
     if (!fin.is_open() || !fout.is_open()) {
-        std::cerr << "Error opening " << "input.txt" << " or " << "benchmark.txt" << " files!" << std::endl;
+        std::cerr << "Error opening " << input << std::endl;
         return;
     }
 
@@ -116,8 +116,8 @@ void clearFile(const std::string& filename) {
 }
 
 void genTest(vector<int> sizes) {
-    ofstream fout1("sorted_dataset.txt");
-    ofstream fout2("unsorted_dataset.txt");
+    ofstream fout1("dataset/sorted_dataset.txt");
+    ofstream fout2("dataset/unsorted_dataset.txt");
     if (!fout1.is_open()) {
         cerr << "Error opening the file sorted to write!" << endl;
         return;
@@ -159,14 +159,14 @@ void genTest(vector<int> sizes) {
 }
 
 int main() {
-    // clearFile("sorted_benchmark.txt");
-    clearFile("unsorted_benchmark.txt");
+    // clearFile("benchmark/sorted_benchmark.txt");
+    clearFile("benchmark/unsorted_benchmark.txt");
     vector<int> sizes = {10, 100, 1000, 10000};
     // genTest(sizes);
   
-    // speedTest("sorted_dataset.txt", "sorted_benchmark.txt", sizes);
+    // speedTest("dataset/sorted_dataset.txt", "benchmark/sorted_benchmark.txt", sizes);
     std::cout << "Benchmarking complete. Results written to sorted_benchmark.txt." << std::endl;
-    speedTest("unsorted_dataset.txt", "unsorted_benchmark.txt", sizes);
+    speedTest("dataset/unsorted_dataset.txt", "benchmark/unsorted_benchmark.txt", sizes);
     std::cout << "Benchmarking complete. Results written to unsorted_benchmark.txt." << std::endl;
     return 0;
 }
